@@ -109,7 +109,7 @@ mongoose
     console.log('Successfully connected to MongoDb...');
     const port = process.env.PORT || 3000;
     app.listen(port, () => {
-      console.log(`Listening to port ${port}...`);
+      console.log(`Listening port ${port}...`);
     });
   })
   .catch((err) => console.log(err));
